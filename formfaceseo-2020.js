@@ -111,20 +111,20 @@ jQuery(divpopup).attr('id', 'myModalthanh');
 jQuery(divpopup).attr('class', 'thanhfaceseo-modal');
 jQuery( "body" ).append(divpopup);
 var titleform='Đăng ký Form';
-var urlform="https://docs.google.com/forms/u/0/d/e/1FAIpQLSepJF5fLFYGU-RI2Ql2D-Of3pBr5An57b8qMbh6XBUiqsWRbA/formResponse";
+var urlform="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeWmOdZTVxHao0J9LTUGv8Jn5r-gv5hQsnSDWufgil8SZBuLg/formResponse";
 var urlchuyen=window.location.href;
-var hovaten="734955211";
-var dienthoai="1215346497";
-var email="502943923";
-var duan="1120408291";
+var hovaten="1574260154";
+var dienthoai="1493702685";
+var email="2529110";
+var duan="961927721";
 var submittitle='Đăng ký tư vấn';
-var submittedform=false;
+var submittedformthanh=false;
 var titleheader="ĐĂNG KÝ TƯ VẤN NHẬN ƯU ĐÃI";
 var hotline="0932928856";
 var linkhientai=window.location.href;
 var thoigiancookie=1;
-var thoigianhien=360000;
-var formdiv='<div class="popup-body"><iframe id="hidden_iframethanh" name="hidden_iframethanh" onload="thanhxet()" style="display:none;"></iframe><div class="box-thanh-form"><div class="img"></div><div class="thanhform-level1"><h2><a class="close-thanhfaceseo-modal">X</a></h2></div><div id="cems-subscription" class="cems-subscription"><div class="sss-form-content thanhgform_wrapper"> <form class="form-hasBg" onsubmit="submittedform=true;" target="hidden_iframethanh" method="post" action="'+urlform+'"><div class="gform_body"><h2 class="form-title yellow-text-gradient">'+titleheader+'</h2><div class="description">					<p>Vui lòng điền chính xác các thông tin bên dưới để nhận tài liệu của dự án</p>				</div>     <ul class="thanhtop_label"> ';
+var thoigianhien=120000;
+var formdiv='<div class="popup-body"><iframe id="hidden_iframethanh" name="hidden_iframethanh" onload="thanhxet()" style="display:none;"></iframe><div class="box-thanh-form"><div class="img"></div><div class="thanhform-level1"><h2><a class="close-thanhfaceseo-modal">X</a></h2></div><div id="cems-subscription" class="cems-subscription"><div class="sss-form-content thanhgform_wrapper"> <form class="form-hasBg" onsubmit="submittedformthanh=true;" target="hidden_iframethanh" method="post" action="'+urlform+'"><div class="gform_body"><h2 class="form-title yellow-text-gradient">'+titleheader+'</h2><div class="description">					<p>Vui lòng điền chính xác các thông tin bên dưới để nhận tài liệu của dự án</p>				</div>     <ul class="thanhtop_label"> ';
 formdiv+= '<li class="sss-form-control gfield ">  <div class="sss-form-control-inner">                               <div class="ginput_container">                  <input class="medium" name="entry.'+hovaten+'" maxlength="70" id="your_name" placeholder="Họ tên" value="" type="text">                </div>              </div>            </li> ';
 formdiv+= '<li class="sss-form-control gfield ">              <div class="sss-form-control-inner">                              <div class="ginput_container">                  <input class="medium" name="entry.'+email+'" maxlength="320" id="email_addr" placeholder="Email" value="" type="email">                </div>              </div>            </li> ';
 formdiv+= ' <li class="sss-form-control gfield ">              <div class="sss-form-control-inner">                                <div class="ginput_container">                  <input class="medium" name="entry.'+dienthoai+'" maxlength="15" id="your_phone" placeholder="Số điện thoại" value="" length="11" type="tel">                </div>              </div>            </li>';
@@ -139,7 +139,7 @@ jQuery("#myModalthanh").html(formdiv);
 		
 function thanhxet(){
 
-if(submittedform) {
+if(submittedformthanh) {
 	
 	 if(document.cookie.indexOf("dahien") == -1)
                    {
