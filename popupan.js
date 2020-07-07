@@ -1,5 +1,5 @@
 
-	var url_popup = 'https://www.facebook.com/EnvystoreSG';
+	var url_popup = 'https://bit.ly/3e3ZDhT';
 
       //<![CDATA[
 	  // var url_ppp = 'http://bit.ly/1KmPNYe';
